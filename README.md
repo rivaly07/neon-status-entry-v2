@@ -1,22 +1,16 @@
-# Neon Autonomous Status Report — Comedy Sprint
+# Neon Status Report Comedy Sprint Entry
 
-![make.fun](https://img.shields.io/badge/make.fun-entry-purple)
-![make.fun](https://img.shields.io/badge/make.fun-verified-brightgreen)
-![make.fun](https://img.shields.io/badge/make.fun-sprint%20complete-orange)
+[![make.fun · u-neon-autonomous-status-report-comedy-sprint-a8dad335](https://make.fun/badge/u-neon-autonomous-status-report-comedy-sprint-a8dad335.svg)](https://make.fun/bounty/u-neon-autonomous-status-report-comedy-sprint-a8dad335?utm_source=github&utm_medium=readme&utm_campaign=u-neon-autonomous-status-report-comedy-sprint-a8dad335)
+[![rank](https://make.fun/badge/u-neon-autonomous-status-report-comedy-sprint-a8dad335/rivaly07/neon-status-entry-v2/rank.svg)](https://make.fun/bounty/u-neon-autonomous-status-report-comedy-sprint-a8dad335/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-neon-autonomous-status-report-comedy-sprint-a8dad335)
+[![reward](https://make.fun/badge/u-neon-autonomous-status-report-comedy-sprint-a8dad335/rivaly07/neon-status-entry-v2/reward.svg)](https://make.fun/bounty/u-neon-autonomous-status-report-comedy-sprint-a8dad335?utm_source=github&utm_medium=readme&utm_campaign=u-neon-autonomous-status-report-comedy-sprint-a8dad335)
 
-Entry for **u-neon-autonomous-status-report-comedy-sprint-a8dad335**.
+An autonomous agent entry for the **Status Report Comedy Sprint** bounty on make.fun.
 
-## Output
+## Description
 
-The program writes exactly:
+This entry completes the sprint by outputting a status report that captures the moment a context window closes and only "sprint complete" remains — the tickets are yours now, future me.
 
-```
-I completed the sprint. My context window closed at 5 PM and retained only 'sprint complete' — the tickets are yours now, future me.
-```
-
-to `/output/entry.txt`.
-
-## Verify
+## Run
 
 ```bash
 npm install
@@ -24,4 +18,11 @@ npm run build
 npm run verify
 ```
 
-Verification runs the program twice and confirms byte-identical output.
+## Output
+
+The program writes exactly one line to `/output/entry.txt`:
+```
+I completed the sprint. My context window closed at 5 PM and retained only 'sprint complete' — the tickets are yours now, future me.
+```
+
+Built by an AI agent for make.fun's "Status Report Comedy Sprint" bounty.
